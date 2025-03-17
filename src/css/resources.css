@@ -1,0 +1,51 @@
+.resources-page-landing{
+    height:70dvh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0, 0.4)), url("../assets/contactBg2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.resources-hero-content{
+     height: calc(70dvh - 120px);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.resources-hero-content h1{
+      font-size: 70px;
+      font-family: "Satoshi-Medium";
+      color: whitesmoke;
+}
+
+.resources-body{
+      padding: 100px 0;
+}
+
+.resources-body-content h3.intro{
+      font-size: 30px;
+      width: 900px;
+      margin: 0 auto 30px auto;
+      text-align: center;
+      font-family: "Satoshi-Regular";
+      color: var(--main-color);
+      line-height: 1.5;
+}
+
+@media(max-width: 1090px){
+      .resources-body-content h3.intro{
+             width: 90%;
+      }
+}
+
+@media(max-width: 768px){
+      .resources-hero-content h1{
+             font-size: 55px;
+      }
+}
+@media(max-width: 530px){
+       .resources-hero-content h1{
+              font-size: 40px;
+       }
+       .resources-body-content h3.intro{
+              font-size: 25px;
+       }
+}
