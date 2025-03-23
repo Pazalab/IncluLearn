@@ -8,7 +8,7 @@ const CallToAction = () => {
                                       <div className="call-to-action-texts">
                                                  <h2>Let's Transform Education Together</h2>
                                                  <p>Looking for expert guidance in special education? Whether you need assessments, tailored learning plans, or teacher training, our team is here to support every learner's success.</p>
-                                                 <Link to={"/"}>Get in Touch <span><HiOutlineArrowUpRight /></span></Link>
+                                                 <Link to={"/contact-us"}>Get in Touch <span><HiOutlineArrowUpRight /></span></Link>
                                       </div>
                             </div>
                 </div>

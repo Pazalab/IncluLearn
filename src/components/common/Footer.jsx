@@ -15,7 +15,7 @@ const Footer = () => {
                                                <Link to={"/"} className="logo">
                                                           <img src={logo} alt="" />
                                                </Link>
-                                               <p>We are dedicated to transforming special education through expert assessments, tailored interventions, and educator empowerment. </p>
+                                               <p>We address the entire spectrum of special education needs, from mental health and cognitive disorders to behavioral challenges.</p>
                                   </div>
                                   <div className="footer-column">
                                              <div className="top-part">
