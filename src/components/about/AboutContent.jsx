@@ -1,4 +1,4 @@
-import about1 from "../../assets/about1.jpg"
+import about1 from "../../assets/about2.jpg"
 const AboutContent = () => {
   return (
     <div className="about-content">
