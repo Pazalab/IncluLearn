@@ -12,12 +12,12 @@ const AboutSection = () => {
                         <div className="about-section-content">
                                    <div className="about-section-column">
                                                 <h3>Who We Are<span>.</span></h3>
-                                                <h2>Redefining learning to create a world where every student thrives.</h2>
+                                                <h2>Redefining learning so every student can thrive.</h2>
                                    </div>
                                    <div className="about-section-column">
-                                             <p><span>IncluLearn Educational Consultancy is a leading special education firm in Rwanda</span>, dedicated to transforming learning for students with special needs. With a deep expertise and a student-centered approach, we create solutions that address cognitive, mental health, and behavioural challenges ensuring every learner receives the support they need to thrive.</p>
+                                             <p><span>IncluLearn is a Rwanda-based educational consultancy specializing in special education.</span> We support learners with cognitive and learning disabilities, neurodiverse profiles, and related behavioral and mental health challenges. Our student-centered approach ensures every child receives the personalized support they need to succeed.</p>
                                              {/* <p>We collaborate with families, educators, institutions and governments to develop strategies that drive inclusing and success. Our tailored solutions empower students to thrive in school and gain the skills to excel in society.</p> */}
-                                             <p>We partner with families, educators, educational institutions, development partners and governments to develop and implement strategies that promote optimal learning outcomes for students with special needs, ensuring their integration, participation, and success in the education system and society at large. </p>
+                                             <p>We work alongside families, schools, development partners, and policymakers to create inclusive strategies that promote meaningful participation and long-term success—in school and beyond.</p>
                                              <Link to={"/about-us"}>Read More <span><LuMoveRight /></span></Link>
                                    </div>
                         </div>

@@ -498,11 +498,11 @@
        border-bottom: none;
 }
 .numbers-wrap h2{
-        font-size: 25px;
+        font-size: 18px;
         font-family: "Satoshi-Regular";
 }
 .numbers-wrap h2 span{
-       font-size: 40px;
+       font-size: 30px;
 }
 .numbers-wrap p{
         line-height: 1.5;

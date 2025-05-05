@@ -18,7 +18,8 @@ const HeroSection = () => {
 
                                                          <div className="hero-text-action">
                                                                       {/* <p>We are a leading special education consultancy dedicated to empowering students with special needs through innovative strategies that drive optimal learning outcomes. Our expert-driven solutions ensure seamless integration, active participation, and lasting success in both the education system and society.</p> */}
-                                                                      <p>We are committed to creating a future where all learners in Rwanda and beyond, regardless of their unique educational needs, are empowered to achieve their fullest potential in an inclusive, supportive and enabling environment.</p>
+                                                                      {/* <p>We are committed to creating a future where all learners in Rwanda and beyond, regardless of their unique educational needs, are empowered to achieve their fullest potential in an inclusive, supportive and enabling environment.</p> */}
+                                                                      <p>We’re building a future where all learners in Africa and beyond can thrive—regardless of their needs—in inclusive, supportive, and enabling environments.</p>
                                                                       <Link to={"/what-we-do"}>Explore More <span><RxArrowTopRight /></span></Link>
                                                          </div>
                                               </div>
