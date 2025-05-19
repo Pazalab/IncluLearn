@@ -10,7 +10,11 @@ import ProcessSection from "../components/home/ProcessSection"
 import ServicesSection from "../components/home/ServicesSection"
 import TestimonialsSection from "../components/home/TestimonialsSection"
 import "../css/home.css"
+import { useArticlesFetch } from "../hooks/articlesFetch"
 const Home = () => {
+
+  const { posts } = useArticlesFetch();
+
   return (
     <div>
            <div className="landing">
@@ -23,7 +27,7 @@ const Home = () => {
            <Numbers />
            <TestimonialsSection />
            <PartnersSection />
-           <BlogSection />
+           <BlogSection data={posts} />
            <CallToAction />
            <Footer />
     </div>

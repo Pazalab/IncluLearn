@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef } from 'react'
 import { CgClose } from 'react-icons/cg'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import logo from "../../../assets/logo2.png"
 import { IoMdCall } from "react-icons/io";
 import { BsEnvelope, BsPinMap } from "react-icons/bs";
@@ -14,6 +14,7 @@ import { sidebarContext } from './navcontext';
 const Sidebar = () => {
   const [ sidebarStatus, setSidebarStatus ] = useContext(sidebarContext);
   const wrapperRef = useRef();
+  const { pathname } = useLocation();
 
   useEffect(() => {
        if(sidebarStatus){
@@ -108,7 +109,7 @@ const Sidebar = () => {
                                                      <li><NavLink to={"/"}>Home</NavLink></li>
                                                     <li><NavLink to={"/about-us"}>Who We Are</NavLink></li>
                                                     <li><NavLink to={"/what-we-do"}>What We Do</NavLink></li>
-                                                    <li><NavLink to={"/resources"}>Resources</NavLink></li>
+                                                    <li><NavLink className={pathname.slice(1,8) === "article" ? "active" : ""} to={"/articles"}>Articles</NavLink></li>
                                                     <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>
                                               </ul>
                                    </div>
