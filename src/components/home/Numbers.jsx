@@ -9,11 +9,11 @@ const Numbers = () => {
                                      <img src={happy} alt="" />
                                         <div className="numbers-column">
                                                   <div className="numbers-wrap">
-                                                             <h2><span>1 - 7</span> children faces serious psychological or behavioral problems.</h2>
+                                                             <h2><span>1 in 7</span> children face serious psychological or behavioral problems.</h2>
                                                              <p>We equip schools and parents with the tools to identify and support learners early.</p>
                                                    </div>
                                                    <div className="numbers-wrap">
-                                                             <h2><span>10 - 15 Million</span> Estimated people with intellectual disabilities in Africa.</h2>
+                                                             <h2><span>10 to 15 Million</span> estimated people in Africa with intellectual disabilities.</h2>
                                                              <p>We raise awareness about neurodiversity and cognitive disabilities</p>
                                                    </div>
                                                    <div className="numbers-wrap">
