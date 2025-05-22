@@ -21,8 +21,8 @@ function App() {
               <Route path="/about-us" element={<About />} />
               <Route path='/contact-us' element={<Contact />} />
               <Route path="/what-we-do" element={<Services />} />
-              <Route path='/articles' element={<Resources />} />
-              <Route path='/article/:title' element={<SingleArticle />} />
+              <Route path='/resources' element={<Resources />} />
+              <Route path='/resource/:title' element={<SingleArticle />} />
     </Routes>
   )
 }

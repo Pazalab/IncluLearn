@@ -19,7 +19,7 @@ const About = () => {
             <ValuesSection />
             <Numbers />
             <TestimonialsSection />
-            <PartnersSection />
+            {/* <PartnersSection /> */}
             <CallToAction />
             <Footer />
     </div>

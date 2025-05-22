@@ -26,7 +26,7 @@ const Home = () => {
            <ProcessSection  />
            <Numbers />
            <TestimonialsSection />
-           <PartnersSection />
+           {/* <PartnersSection /> */}
            <BlogSection data={posts} />
            <CallToAction />
            <Footer />

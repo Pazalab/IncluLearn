@@ -14,7 +14,7 @@ const ResourcesBody = () => {
                                    { posts && posts.length > 0 ? 
                                            <div className="blog-row">
                                                       { posts.map(item =>
-                                                         <div className="article-moja" key={item.id} onClick={() => navigate(`/article/${item.slug}`)}>
+                                                         <div className="article-moja" key={item.id} onClick={() => navigate(`/resource/${item.slug}`)}>
                                                              <div className="image-section">
                                                                                   <img src={item._embedded["wp:featuredmedia"][0].source_url} alt="" />
                                                                                    <div className="link-btn">

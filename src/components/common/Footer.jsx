@@ -27,9 +27,9 @@ const Footer = () => {
                                              </div>
                                              <div className="bottom-part">
                                                          <div className="single-column">
-                                                                <p><span><IoMdCall /></span>+250 1234 56789</p>
-                                                                <p><span><BsEnvelope /></span>hello@inclulearn.com</p>
-                                                              <p><span><BsPinMap /></span>8 KN 4 Av, Centenary House, 4th Floor</p>
+                                                                <p><span><IoMdCall /></span>+250 791 946 666</p>
+                                                                <p><span><BsEnvelope /></span>support@inclulearn.org</p>
+                                                                <p><span><BsPinMap /></span>Kibagabaga, Kigali, Rwanda</p>
                                                          </div>
                                                          <div className="single-column">
                                                                   <div className="social-links">

@@ -1,4 +1,3 @@
-import React from 'react'
 import ContactForm from './ContactForm'
 
 const ContactBody = () => {
@@ -12,15 +11,15 @@ const ContactBody = () => {
 
                                                    <div className="contact-box">
                                                               <h3>Email Us</h3>
-                                                              <p>hello@inclulearn.com</p>
+                                                              <p>support@inclulearn.org</p>
                                                    </div>
                                                    <div className="contact-box">
                                                                <h3>Give us a Call</h3>
-                                                               <p>+250 7123 56789</p>
+                                                               <p>+250 791 946 666</p>
                                                    </div>
                                                    <div className="contact-box">
                                                              <h3>Office Address</h3>
-                                                             <p>8 KN 4 Av, Centenary House, 4th Floor</p>
+                                                             <p>Kibagabaga, Kigali, Rwanda</p>
                                                    </div>
                                       </div>
                                       <ContactForm />

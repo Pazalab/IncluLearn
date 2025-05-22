@@ -7,6 +7,7 @@ const Header = () => {
   // eslint-disable-next-line no-unused-vars
   const [ sidebarStatus, setSidebarStatus ] = useContext(sidebarContext);
   const { pathname } = useLocation();
+  //console.log(pathname.slice(1,10))
   return (
     <header>
               <div className="inner-row-2">
@@ -19,7 +20,7 @@ const Header = () => {
                                                     <li><NavLink to={"/"}>Home</NavLink></li>
                                                     <li><NavLink to={"/about-us"}>Who We Are</NavLink></li>
                                                     <li><NavLink to={"/what-we-do"}>What We Do</NavLink></li>
-                                                    <li><NavLink className={pathname.slice(1, 8) === "article" ? "active" : ""} to={"/articles"}>Articles</NavLink></li>
+                                                    <li><NavLink className={pathname.slice(1, 10) === "resources" ? "active" : ""} to={"/resources"}>Resources</NavLink></li>
                                           </ul>
                                   </nav>
                                   <div className="header-extra">

@@ -15,14 +15,14 @@ const BlogSection = ({ data }) => {
                                                      </div>
                                                      <div className="right-column">
                                                               <p>From expert tips to real success stories, we share everything you need to create a more inclusive learning environment for every student. Stay inspired, informed, and empowered to make a difference!</p>
-                                                              <Link to={"/articles"}>More Insights <span><HiOutlineArrowUpRight /></span></Link>
+                                                              <Link to={"/resources"}>More Insights <span><HiOutlineArrowUpRight /></span></Link>
                                                      </div>
                                         </div>
 
                                         { data && data.length > 0 ? 
                                                    <div className="blog-row">
                                                              {  data && data.slice(0, 3).map(item => 
-                                                                  <div className="article-moja" key={item.id} onClick={() => navigate(`/article/${item.slug}`)}>
+                                                                  <div className="article-moja" key={item.id} onClick={() => navigate(`/resource/${item.slug}`)}>
                                                                           <div className="image-section">
                                                                                   <img src={item._embedded["wp:featuredmedia"][0].source_url} alt="" />
                                                                                    <div className="link-btn">

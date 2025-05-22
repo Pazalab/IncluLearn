@@ -109,7 +109,7 @@ const Sidebar = () => {
                                                      <li><NavLink to={"/"}>Home</NavLink></li>
                                                     <li><NavLink to={"/about-us"}>Who We Are</NavLink></li>
                                                     <li><NavLink to={"/what-we-do"}>What We Do</NavLink></li>
-                                                    <li><NavLink className={pathname.slice(1,8) === "article" ? "active" : ""} to={"/articles"}>Articles</NavLink></li>
+                                                    <li><NavLink className={pathname.slice(1, 10) === "resources" ? "active" : ""} to={"/resources"}>Resources</NavLink></li>
                                                     <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>
                                               </ul>
                                    </div>
@@ -119,8 +119,8 @@ const Sidebar = () => {
 
                                               <div className="sidebar-contact-grid">
                                                           <div className="sidebar-contact-column">
-                                                                     <p><span><IoMdCall /></span> +250 1234 56789</p>
-                                                                     <p><span><BsEnvelope /></span> hello@inclulearn.com</p>
+                                                                     <p><span><IoMdCall /></span> +250 791 946 666</p>
+                                                                     <p><span><BsEnvelope /></span> support@inclulearn.com</p>
                                                           </div>
                                                           <div className="sidebar-contact-column">
                                                                      <p><span><BsPinMap /></span>8 KN 4 Av, Centenary House, 4th Floor</p>
