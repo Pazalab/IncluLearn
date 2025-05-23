@@ -108,7 +108,7 @@ const Sidebar = () => {
                                               <ul>
                                                      <li><NavLink to={"/"}>Home</NavLink></li>
                                                     <li><NavLink to={"/about-us"}>Who We Are</NavLink></li>
-                                                    <li><NavLink to={"/what-we-do"}>What We Do</NavLink></li>
+                                                    <li><NavLink to={"/what-we-do/specialized-education-diagnostic-assessments"}>What We Do</NavLink></li>
                                                     <li><NavLink className={pathname.slice(1, 10) === "resources" ? "active" : ""} to={"/resources"}>Resources</NavLink></li>
                                                     <li><NavLink to={"/contact-us"}>Contact Us</NavLink></li>
                                               </ul>

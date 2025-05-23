@@ -18,7 +18,7 @@ const About = () => {
             <AboutContent />
             <ValuesSection />
             <Numbers />
-            <TestimonialsSection />
+            {/* <TestimonialsSection /> */}
             {/* <PartnersSection /> */}
             <CallToAction />
             <Footer />

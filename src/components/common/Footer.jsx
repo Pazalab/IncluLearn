@@ -21,8 +21,8 @@ const Footer = () => {
                                              <div className="top-part">
                                                        <ul>
                                                                 <li><Link to={"/about-us"}>About Us</Link></li>
-                                                                <li><Link to={"/what-we-do"}>What We Do</Link></li>
-                                                                <li><Link to={"/articles"}>Articles</Link></li>
+                                                                <li><Link to={"/what-we-do/specialized-education-diagnostic-assessments"}>What We Do</Link></li>
+                                                                <li><Link to={"/resources"}>Resources</Link></li>
                                                        </ul>
                                              </div>
                                              <div className="bottom-part">

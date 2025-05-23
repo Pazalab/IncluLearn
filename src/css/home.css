@@ -479,7 +479,7 @@
 }
 
 .numbers-section{
-       padding: 100px 0;
+       padding: 100px 0 30px 0;
 }
 
 .numbers-section-content{
@@ -515,7 +515,7 @@
 
 
 .testimonials-section{
-        padding: 30px 0px 100px 0;
+        padding: 0px 0px 100px 0;
         overflow: hidden;;
 }
 .testimonials-intro{

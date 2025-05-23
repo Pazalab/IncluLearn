@@ -2,6 +2,8 @@ export const solutions = [
     {
         id: 0,
         title: "Specialized Educational Diagnostic Assessments",
+        url_param: "specialized-education-diagnostic-assessments",
+        link: "/what-we-do/specialized-education-diagnostic-assessments",
         description: "We conduct in-depth evaluations to identify specific learning disabilities and cognitive challenges, enabling the development of tailored educational strategies for each learner.",
         image: "/services/assessment.jpg",
         excerpt: [
@@ -13,6 +15,8 @@ export const solutions = [
     {
         id: 1,
         title: "Individualized Education Program (IEP) and Accommodation Plan Development",
+        url_param: "individual-education-program-and-accomodation-plan-development",
+        link: "/what-we-do/individual-education-program-and-accomodation-plan-development",
         description: "Our team creates customized education plans and specific accommodation strategies that cater to each student's unique needs, ensuring personalized learning experiences and facilitating full participation in education settings.",
         image: "/services/iep.jpg",
         excerpt: [
@@ -23,6 +27,8 @@ export const solutions = [
     {
         id: 2,
         title: "Teacher Training & Professional Development",
+        url_param: "teacher-training-and-professional-development",
+        link: "/what-we-do/teacher-training-and-professional-development",
         description: "IncluLearn offers comprehensive training programs for educators, focusing on Differentiated Instruction and Universal Design for Learning (UDL), empowering teachers with the skills to effectively support diverse learners.",
         image: "/services/training.jpg",
         excerpt: [
@@ -33,7 +39,9 @@ export const solutions = [
     {
         id: 3,
         title: "Individual and Parental Coaching",
+        link: "/what-we-do/individual-and-parental-coaching",
         description: "We provide coaching services for both students and their parents, promoting a supportive home environment that complements educational interventions.",
+        url_param: "individual-and-parental-coaching",
         image: "/services/coaching.jpg",
         excerpt: [
             "Supporting a child with special learning needs extends beyond the classroom—it starts at home. IncluLearn offers tailored coaching services for both students and parents, helping them navigate the challenges of special education. Our student coaching focuses on building confidence, developing strong learning habits, and enhancing self-advocacy skills. Many students with learning disabilities struggle with self-esteem due to past academic failures or misunderstandings about their abilities. Through personalized coaching, we help them recognize their strengths, overcome obstacles, and adopt strategies that improve focus, organization, and problem-solving skills. This hands-on support empowers them to take charge of their learning journey and approach education with a growth mindset.",
@@ -43,6 +51,8 @@ export const solutions = [
     {
         id: 4,
         title: "Advocacy for Inclusive Policy Formulation",
+        link: "/what-we-do/advocacy-for-inclusive-policy-formulation",
+        url_param: "advocacy-for-inclusive-policy-formulation",
         description: "IncluLearn actively engages with educational institutions and policy makers to advocate for the development and implementation of inclusive education policies, contributing to systemic change within Africa's education sector.",
         image: "/services/about1.jpg",
         excerpt: [
@@ -53,6 +63,8 @@ export const solutions = [
     {
         id: 5,
         title: "Research & Innovation of Inclusive Education",
+        url_param: "research-and-innovation-of-inclusive-education",
+        link: "/what-we-do/research-and-innovation-of-inclusive-education",
         description: "We are committed to advancing the field of special education through ongoing research and the development of innovative practices, ensuring that our methods are both effective and up-to-date.",
         image: "/services/happy.jpg",
         excerpt: [

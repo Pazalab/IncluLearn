@@ -25,7 +25,7 @@ const Home = () => {
            <ServicesSection />
            <ProcessSection  />
            <Numbers />
-           <TestimonialsSection />
+           {/* <TestimonialsSection /> */}
            {/* <PartnersSection /> */}
            <BlogSection data={posts} />
            <CallToAction />
